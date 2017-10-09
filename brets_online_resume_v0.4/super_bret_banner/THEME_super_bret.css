@@ -1,0 +1,142 @@
+#hero {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#test {
+    display: none;
+    position: absolute;
+    top: 225px;
+    left: 400px;
+}
+
+#gameCanvas {
+    margin: auto;
+}
+
+#dixie_mountain {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#push_start {
+    position: absolute;
+    top: 100px;
+    margin: auto;
+    padding: 0px;
+    left: 50%;
+    margin-left: -88px;
+}
+
+#ground {
+    background-image: url('images/ground.png');
+    background-repeat: repeat-x;
+    height: 72px;
+    width: 100%;
+    position: absolute;
+    top: 270px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #661c0a;
+}
+
+#resume {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    padding-top: 25px;
+    font-size: 1.2em;
+    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    /*font-family: 'Miriam Libre', sans-serif;
+    font-family: 'Rationale', sans-serif;
+     font-family: 'Geo', sans-serif; */
+}
+#aboutMe h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 1.3em;
+    padding-left: 4px;
+}
+
+
+#aboutMe {
+    width: 75%;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+#skills table td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#pjobs table, #education table {
+    width: 100%;
+}
+
+.rp {
+    text-align: left;
+    padding-top: 0px;
+    margin: 0px;
+    font-style: italic;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    padding-left: 2px;
+
+    border-bottom-width: 2px;
+}
+
+#skills, #pjobs, #education {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#skills {
+    text-align: center;
+}
+
+#skills td {
+    
+    font-weight: bold;
+}
+
+#pjobs {
+    
+}
+
+#education {
+    
+}
+
+.edu_right {
+    text-align: right;
+}
+
+#signature {
+    text-align: center;
+    padding-bottom: px;
+}
+
+#disclaimer {
+    text-align: center;
+    
+}

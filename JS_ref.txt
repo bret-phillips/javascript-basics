@@ -1,0 +1,87 @@
+alert("text");   ------------------------------------------------------------------   Pop up window
+document.write("text");   =========================================================   write to page
+console.log("text");   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   write to console
+
+var string_name = "text";   -------------------------------------------------------   create string
+var int_name = 15;   ==============================================================   create int
+var bool_name = true;
+
+string_name = "text";   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   change string
+int_name = 5;   -------------------------------------------------------------------   change int
+bool_name = false;
+
+var int_name = prompt("Enter a number");   ========================================   create variable from promt
+int_name = prompt("Enter a number");   ++++++++++++++++++++++++++++++++++++++++++++   set variable with promt
+
+var hotText = "BP-home";
+var URL = "www.bret-phillips.com";
+document.write("click to return to " + hotText.link(URL));
+
+var random_num = Math.random();                                                       random float between 0 and upto 1
+var random_num = Math.floor(Math.random() *50) +1;                                    random int between 1 and 50
+
+if(variable === condition) { result }
+else if()(variable === other_condition) { result }
+else { result }
+
+===                                                                                   equal value and type
+!==                                                                                   not equal value or type
+&&                                                                                    and
+||                                                                                    or
+
+//                                                                                    single line comment
+/* */                                                                                 multi-line comment
+
+string_name.toLowerCase();                                                            set to lower case
+var num = parseInt(string_number);                                                    convert string to an int
+
+function FunctionName (Variables) { Code }
+
+while(condition) { code }                                                             while loop
+for(i = 0; i < 15; i++)                                                               for loop
+do { code } while()                                                                   always runs atleast once
+
+break
+
+// (UserName === null || UserName >= 0)                                               forces string
+
+
+++
++=
+
+var ArrayName = ["item1"];                                                            create an array with one item
+var ArrayName = ["item1", "item2", "item3"];                                          create an array with more than one item
+ArrayName.push("item1");                                                              add an item to the end of an array
+ArrayName.push("item1", "item2");                                                     add several items to the end of an array
+ArrayName.unshift("item1");                                                           add an item to the front of an array
+ArrayName.unshift("item1", "item2");                                                  add several items to the front of an array
+ArrayName.pop();                                                                      removes the last item of an array
+ArrayName.shift(0);                                                                   removes the indexed(?) item of an array
+
+window.onload = function() {}                                                         wait for code to fully load before running
+
+//// Game/canvas code ////
+
+// <canvas id="gameCanvas" width'"800" height="600"></canvas>                         create canvas in html for javaScript
+
+canvas = document.getElementById('canvasidname');                                     find canvas by id
+canvasContext = canvas.getContext('2d');                                              set canvascontext to 2d
+canvasContext.fillStyle = 'colorName/value';                                          set fill color
+canvasContext.fillRect(x, y, width, height);                                          draw rectangle on canvas
+canvas.width                                                                          get width of canvas
+canvas.height                                                                         get height of canvas
+
+canvasContext.beginPath();                                                            starts a drawing path
+canvasContext.arc(centerX, centerY, radius, 0, Math.PI*2, true);                      draws arcs or circles in radians
+canvasContext.fill();                                                                 draws object when done in this order
+
+setInterval(funcrtionNameWithoutParenthesis, miliseconds);                            call function every so many miliseconds - 1000 = 1 second
+
+
+switch(tileKindHere) {
+    case TRACK_ROAD:
+        canvasContext.drawImage(roadPic, TRACK_W*eachCol, TRACK_H*eachRow);
+        break;
+    case TRACK_WALL:
+        canvasContext.drawImage(wallPic, TRACK_W*eachCol, TRACK_H*eachRow);
+        break;
