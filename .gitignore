@@ -36,6 +36,8 @@ _testmain.go
 
 #other
 node_modules/
+bundle.js
+npm-debug.log
 bower_components/
 .tmp
 .sass-cache
@@ -49,3 +51,4 @@ builds/**/images/*
 # security / ssl
 *.pem
 *.xxjson
+
